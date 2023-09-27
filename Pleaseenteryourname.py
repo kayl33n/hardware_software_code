@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 20 11:15:10 2023
+
+@author: kayc2
+"""
+print("Hello, what is your name?")
+answer = input ()
+print ()
+print("Hi "+ answer +", how old are you?")
+answer = input ()
+print()
+print("You said youre "+ answer +", great!")
+print("What is your level of knowledge in Python? Beginner, intermediate, expert?")
+answer = input ()
+print ()
+print(""+ answer +"? Thats great! Whether youre just starting out or an expert, there are multiple resources to help you.")
