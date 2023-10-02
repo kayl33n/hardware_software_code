@@ -5,7 +5,7 @@ Created on Mon Oct  2 11:15:07 2023
 @author: kayc2
 """
 
-def main () :
+def main() :
     flowers = 5
     trees = 10
     plants = flowers + trees
@@ -13,10 +13,11 @@ def main () :
     print(plants)
     number1 = 125
     number2 = 100
-    number3 - number1 - number2
+    number3 = number1 - number2
     number3 = 10
     number1 = 20
     number2 = number1 + number2 + number3
     print(number2)
-    __name == "__main__"
-    main()
+    if  __name__ == "__main__":
+        main()
+        
