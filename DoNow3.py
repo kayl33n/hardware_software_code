@@ -18,6 +18,5 @@ def main() :
     number1 = 20
     number2 = number1 + number2 + number3
     print(number2)
-    if  __name__ == "__main__":
-        main()
-        
+if  __name__ == "__main__":
+    main()
