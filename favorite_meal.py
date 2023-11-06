@@ -11,6 +11,8 @@ def meal_test (answer):
             print("Burger Yummy!")
         elif answer == 3:      
             print("Pizza Yummy!")
+        elif answer == 4:
+            print("Tostadas, muy bien!")
         else:
             print ("That is not an option!")
     
@@ -19,6 +21,7 @@ def main ():
     print ("1.Chicken")
     print ("2. Burger")
     print ("3. Pizza")
+    print ("4. Tostadas")
     answer = int(input())
     meal_test (answer)
     
