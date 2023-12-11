@@ -14,5 +14,5 @@ def main () :
     total = int(number1) + int(number2)
     print ("The total is" + str(total) + ".")
     
-    if __name__ == "__main__":
+if __name__ == "__main__":
         main()
