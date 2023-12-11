@@ -80,14 +80,14 @@ def calculator_project(answer): #Once a choice/number is chosen in the main func
     elif answer == 3:
         result = binary_to_hexadecimal()
         print(f"The Hexadecimal representation is: {result}")
-       
+        
     else:  
         print("Invalid choice")
 
 def main():  #This function lists the conversions available in the program, listed by numbers. This function allows the user to insert their choice of conversion.
   print("Welcome to Kayleen's calculator project!")
   
-  while True:
+  while True: 
       print("What would you like to do? Pick a Number:")
       print("(1) Convert a Binary Number to Decimal")
       
@@ -103,7 +103,10 @@ def main():  #This function lists the conversions available in the program, list
           print("Bye bye!")
           break
       else:
-          print("That's not a valid option, please try again!")
+          if answer not in ('1', '2', '3'):
+              print("That's not a valid option, please try again!")
+              continue
+          calculator_project(int(answer))
       
 if __name__ == "__main__":
     main()
